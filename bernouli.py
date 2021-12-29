@@ -16,3 +16,4 @@ print(dataset)
 # Probability of the dataset
 prob_dataset = tf.reduce_prod(event.prob(dataset))
 print(prob_dataset)
+
